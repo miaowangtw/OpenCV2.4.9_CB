@@ -1,0 +1,294 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: d:/Program Files (x86)/Embarcadero/RAD Studio/10.0/bin/bcc32.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+CMakeCXXCompilerId.cpp:
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.tds"
+
+The CXX compiler identification is Embarcadero, found in "D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/3.1.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: d:/Program Files (x86)/Embarcadero/RAD Studio/10.0/bin/bcc32.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+CMakeCCompilerId.c:
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.tds"
+
+The C compiler identification is Embarcadero, found in "D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/3.1.0-rc1/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1793577193\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1793577193.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1793577193.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1793577193.dir/testCXXCompiler.cxx.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1793577193.dir\testCXXCompiler.cxx.obj -tM -Od -v -P -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\testCXXCompiler.cxx:
+Linking CXX executable cmTryCompileExec1793577193.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec1793577193.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec4095874978\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec4095874978.dir\build.make -l -o  CMakeFiles\cmTryCompileExec4095874978.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4095874978.dir/CMakeCXXCompilerABI.cpp.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec4095874978.dir\CMakeCXXCompilerABI.cpp.obj -tM -Od -v -P -c "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp:
+Linking CXX executable cmTryCompileExec4095874978.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec4095874978.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec385862046\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec385862046.dir\build.make -l -o  CMakeFiles\cmTryCompileExec385862046.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec385862046.dir/testCCompiler.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec385862046.dir\testCCompiler.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\testCCompiler.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\testCCompiler.c:
+Linking C executable cmTryCompileExec385862046.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec385862046.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1155266419\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1155266419.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1155266419.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1155266419.dir/CMakeCCompilerABI.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1155266419.dir\CMakeCCompilerABI.c.obj -tM -Od -v -c "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c:
+Linking C executable cmTryCompileExec1155266419.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec1155266419.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec769846440\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec769846440.dir\build.make -l -o  CMakeFiles\cmTryCompileExec769846440.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec769846440.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec769846440.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec769846440.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec769846440.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec45076006\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec45076006.dir\build.make -l -o  CMakeFiles\cmTryCompileExec45076006.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec45076006.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec45076006.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec45076006.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec45076006.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec3625979974\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec3625979974.dir\build.make -l -o  CMakeFiles\cmTryCompileExec3625979974.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3625979974.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec3625979974.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec3625979974.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec3625979974.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec3608068681\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec3608068681.dir\build.make -l -o  CMakeFiles\cmTryCompileExec3608068681.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3608068681.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec3608068681.dir\CMAKE_SIZEOF_UNSIGNED_SHORT.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c:
+Linking C executable cmTryCompileExec3608068681.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec3608068681.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1389059662\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1389059662.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1389059662.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1389059662.dir/CheckFunctionExists.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1389059662.dir\CheckFunctionExists.c.obj -tM -DCHECK_FUNCTION_EXISTS=fseeko -Od -v -c "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c"
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c:
+Warning W8065 C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c 11: Call to function 'fseeko' with no prototype in function main
+Linking C executable cmTryCompileExec1389059662.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec1389059662.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -DCHECK_FUNCTION_EXISTS=fseeko -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec351231087\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec351231087.dir\build.make -l -o  CMakeFiles\cmTryCompileExec351231087.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec351231087.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec351231087.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec351231087.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec351231087.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec833635720\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec833635720.dir\build.make -l -o  CMakeFiles\cmTryCompileExec833635720.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec833635720.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec833635720.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec833635720.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec833635720.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec4192504909\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec4192504909.dir\build.make -l -o  CMakeFiles\cmTryCompileExec4192504909.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4192504909.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec4192504909.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec4192504909.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec4192504909.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec123050661\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec123050661.dir\build.make -l -o  CMakeFiles\cmTryCompileExec123050661.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec123050661.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec123050661.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec123050661.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec123050661.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec2891862514\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec2891862514.dir\build.make -l -o  CMakeFiles\cmTryCompileExec2891862514.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2891862514.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec2891862514.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Linking C executable cmTryCompileExec2891862514.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec2891862514.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+

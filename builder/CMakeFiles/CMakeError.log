@@ -1,0 +1,200 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1948971506\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1948971506.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1948971506.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1948971506.dir/TestEndianess.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1948971506.dir\TestEndianess.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\TestEndianess.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\TestEndianess.c:
+Linking C executable cmTryCompileExec1948971506.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec1948971506.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1192871419\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1192871419.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1192871419.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1192871419.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1192871419.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Error E2209 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c 1: Unable to open include file 'unistd.h'
+*** 1 errors in Compile ***
+
+** error 2 ** deleting CMakeFiles\cmTryCompileExec1192871419.dir\CheckIncludeFile.c.obj
+
+** error 1 ** deleting cmTryCompileExec1192871419\fast
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec3361886471\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec3361886471.dir\build.make -l -o  CMakeFiles\cmTryCompileExec3361886471.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3361886471.dir/OFF64_T.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec3361886471.dir\OFF64_T.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c:
+Error E2451 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c 19: Undefined symbol 'off64_t'
+Error E2109 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c 19: Not an allowed type
+Error E2109 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c 20: Not an allowed type
+Error E2109 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c 21: Not an allowed type
+Error E2109 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c 22: Not an allowed type
+Error E2109 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CheckTypeSize\OFF64_T.c 23: Not an allowed type
+*** 6 errors in Compile ***
+
+** error 2 ** deleting CMakeFiles\cmTryCompileExec3361886471.dir\OFF64_T.c.obj
+
+** error 1 ** deleting cmTryCompileExec3361886471\fast
+
+D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1711582437\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1711582437.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1711582437.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1711582437.dir/CheckFunctionExists.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1711582437.dir\CheckFunctionExists.c.obj -tM -DCHECK_FUNCTION_EXISTS=jbg_newlen -Od -v -c "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c"
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c:
+Warning W8065 C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c 11: Call to function 'jbg_newlen' with no prototype in function main
+Linking C executable cmTryCompileExec1711582437.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec1711582437.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -DCHECK_FUNCTION_EXISTS=jbg_newlen -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+Error: Unresolved external '_jbg_newlen' referenced from D:\M\CODE\GITHUB\OPENCV2.4.9_CB\BUILDER\CMAKEFILES\CMAKETMP\CMAKEFILES\CMTRYCOMPILEEXEC1711582437.DIR\CHECKFUNCTIONEXISTS.C.OBJ
+Error: Unable to perform link
+
+** error 1 ** deleting cmTryCompileExec1711582437.exe
+
+** error 1 ** deleting cmTryCompileExec1711582437\fast
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec1306838459\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec1306838459.dir\build.make -l -o  CMakeFiles\cmTryCompileExec1306838459.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1306838459.dir/CheckFunctionExists.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec1306838459.dir\CheckFunctionExists.c.obj -tM -DCHECK_FUNCTION_EXISTS=mmap -Od -v -c "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c"
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c:
+Warning W8065 C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.c 11: Call to function 'mmap' with no prototype in function main
+Linking C executable cmTryCompileExec1306838459.exe
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR -ecmTryCompileExec1306838459.exe -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC -tM -DCHECK_FUNCTION_EXISTS=mmap -Od -v @MAKE0000.@@@
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.30 Copyright (c) 1997-2012 Embarcadero Technologies, Inc.
+Error: Unresolved external '_mmap' referenced from D:\M\CODE\GITHUB\OPENCV2.4.9_CB\BUILDER\CMAKEFILES\CMAKETMP\CMAKEFILES\CMTRYCOMPILEEXEC1306838459.DIR\CHECKFUNCTIONEXISTS.C.OBJ
+Error: Unable to perform link
+
+** error 1 ** deleting cmTryCompileExec1306838459.exe
+
+** error 1 ** deleting cmTryCompileExec1306838459\fast
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/m/code/GitHub/OpenCV2.4.9_CB/builder/CMakeFiles/CMakeTmp
+
+Run Build Command:"make" "cmTryCompileExec3900274865\fast"
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTryCompileExec3900274865.dir\build.make -l -o  CMakeFiles\cmTryCompileExec3900274865.dir\build
+MAKE Version 5.4  Copyright (c) 1987, 2010 Embarcadero Technologies, Inc.
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3900274865.dir/CheckIncludeFile.c.obj
+	d:\PROGRA~1\EMBARC~1\RADSTU~1\10.0\bin\bcc32.exe -tR  -DWIN32 -oCMakeFiles\cmTryCompileExec3900274865.dir\CheckIncludeFile.c.obj -tM -Od -v -c D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Embarcadero C++ 6.51 for Win32 Copyright (c) 1993-2012 Embarcadero Technologies, Inc.
+D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c:
+Error E2209 D:\m\code\GitHub\OpenCV2.4.9_CB\builder\CMakeFiles\CMakeTmp\CheckIncludeFile.c 1: Unable to open include file 'unistd.h'
+*** 1 errors in Compile ***
+
+** error 2 ** deleting CMakeFiles\cmTryCompileExec3900274865.dir\CheckIncludeFile.c.obj
+
+** error 1 ** deleting cmTryCompileExec3900274865\fast
+
+
